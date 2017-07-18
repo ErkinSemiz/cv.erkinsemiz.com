@@ -16,6 +16,7 @@ disable404 = false
 # Meta
     description = "Erkin Semiz CV"
     author = "Erkin Semiz"
+    avatar = "avatar.png"
 
 # Theme styles
 
@@ -32,7 +33,6 @@ disable404 = false
     [params.profile]
         name = "Erkin Semiz"
         tagline = "Software Developer"
-        avatar = "avatar.png"
 
     # Contact section
     [params.contact]
