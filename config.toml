@@ -1,15 +1,15 @@
 # Page settings
 
-baseurl = "http://cv.erkinsemiz.com/"
+baseurl = "https://github.com/ErkinSemiz/cv.erkinsemiz.com/tree/master/"
 languageCode = "en-us"
 title = "Erkin Semiz Resume"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 # Do not build files for websites. Need them? Set to false
-disableRSS = true
-disableSitemap = true
-disable404 = true
+disableRSS = false
+disableSitemap = false
+disable404 = false
 
 [params]
 
@@ -24,7 +24,7 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles-6.css"
+    styles = "styles.css"
 
 # Sidebar sections
 
@@ -44,17 +44,6 @@ disable404 = true
         url = "mailto: erkin1semiz@gmail.com"
         title = "erkin1semiz@gmail.com"
 
-        [[params.contact.list]]
-        class = "phone"
-        icon = "fa-phone"
-        url = "tel:+905557103928"
-        title = "+905557103928"
-
-        [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//deadpixelssociety.com"
-        title = "deadpixelssociety.com"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -67,12 +56,6 @@ disable404 = true
         icon = "fa-github"
         url = "//github.com/erkinsemiz"
         title = "github.com/erkinsemiz"
-
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/MajesteleriAbi"
-        title = "@MajesteleriAbi"
 
     # Education section
     [params.education]
@@ -130,6 +113,12 @@ disable404 = true
         interest = "Cooking"
 
 # Main body sections
+
+     # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
 
     # Experiences section
     [params.experiences]
@@ -190,10 +179,6 @@ disable404 = true
         skill = "After Effects & Photoshop"
         level = "60%"
 	
-	[[params.skills.list]]
-        skill = "Special Video Effects"
-        level = "50%"
-
 	[[params.skills.list]]
         skill = "Autocad"
         level = "45%"
