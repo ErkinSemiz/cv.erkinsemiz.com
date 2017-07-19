@@ -132,7 +132,7 @@ disable404 = false
         position = "Co-Founder"
         dates = "2016 - Present"
         company = "Team Beta"
-        details = "With my fellow university friends we wanted to start a organization to create a space for our imagination and projects which improves our vision. This organizaton is not only for few people, it's all of us. https://github.com/TeamBetaOgu "
+        details = "With my fellow university friends we wanted to start a organization to create a space for our imagination and projects, which improves our vision. This organizaton is not only for few people, it's all of us. https://github.com/TeamBetaOgu "
 
     # Projects section
     [params.projects]
@@ -149,7 +149,7 @@ disable404 = false
 	[[params.projects.list]]
         title = "Online Book Store Application with User Database"
         url = "https://github.com/ErkinSemiz/OOP2_Term_Project"
-        tagline = "Based On C# language and developed for the OOP II project for the Eskisehir Osmangazi University. Main goal is developing alive book store application with popular patterns, tools and designs with digital arts."
+        tagline = "Based On C# language and developed for the OOP II project of the Eskisehir Osmangazi University. Main goal was to develope alive book store application with popular patterns, tools and designs with digital arts."
 
    
     # Footer section
