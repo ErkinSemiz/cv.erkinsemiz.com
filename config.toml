@@ -43,7 +43,12 @@ disable404 = false
         icon = "fa-envelope"
         url = "mailto: erkin1semiz@gmail.com"
         title = "erkin1semiz@gmail.com"
-
+        
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+905557103928"
+        title = "+905557103928"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -144,7 +149,7 @@ disable404 = false
 	[[params.projects.list]]
         title = "Online Book Store Application with User Database"
         url = "https://github.com/ErkinSemiz/OOP2_Term_Project"
-        tagline = "Based On C# language and developed for the OOP II project for the Eskisehir Osmangazi University.Main goal is developing alive book store application with popular patterns, tools and design with digital arts."
+        tagline = "Based On C# language and developed for the OOP II project for the Eskisehir Osmangazi University.Main goal is developing alive book store application with popular patterns, tools and designs with digital arts."
 
    
     # Footer section
