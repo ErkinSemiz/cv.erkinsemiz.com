@@ -106,9 +106,6 @@ disable404 = false
 	[[params.interests.list]]
         interest = "Basketball"
 
-	[[params.interests.list]]
-        interest = "Video Games"
-
         [[params.interests.list]]
         interest = "Cooking"
 
@@ -142,55 +139,14 @@ disable404 = false
         [[params.projects.list]]
         title = "Automated Guided Vehicle and Katana Arm Scenario Simulation"
         url = "https://github.com/ErkinSemiz/agvs_katana_simulation"
-        tagline = "Appropriate of expectation of the New World Order and Industry 4.0 revolution, base level communication between carrier and automated arm with ROS and Gazebo Simulation"
+        tagline = "Appropriate expectation of the future's requirements and Industry 4.0 revolution, base level communication between carrier and automated arm with ROS and Gazebo Simulation"
         
 	[[params.projects.list]]
         title = "Online Book Store Application with User Database"
         url = "https://github.com/ErkinSemiz/OOP2_Term_Project"
         tagline = "Based On C# language and developed for the OOP II project for the Eskisehir Osmangazi University.Main goal is developing alive book store application with popular patterns, tools and design with digital arts."
 
-    # Skills section
-    [params.skills]
-        enable = true
-        icon = "fa-rocket"
-        title = "Skills & Proficiency"
-
-        [[params.skills.list]]
-        skill = "C++ & C# & C"
-        level = "98%"
-                
-        [[params.skills.list]]
-        skill = "Linux System Management"
-        level = "82%"
-
-        [[params.skills.list]]
-        skill = "Robot Operating System"
-        level = "75%"
-
-        [[params.skills.list]]
-        skill = "Gazebo Robot Simulation"
-        level = "68%"
-
-        [[params.skills.list]]
-        skill = "Social Media Management"
-        level = "66%"
-
-        [[params.skills.list]]
-        skill = "After Effects & Photoshop"
-        level = "60%"
-	
-	[[params.skills.list]]
-        skill = "Autocad"
-        level = "45%"
-	
-	[[params.skills.list]]
-        skill = "SQL Server Management"
-        level = "40%"
-	
-	[[params.skills.list]]
-        skill = "Cyber Security"
-        level = "20%"
-
+   
     # Footer section
 
     # The original template is released under the Creative Commons Attribution 3.0 License.
