@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://github.com/ErkinSemiz/cv.erkinsemiz.com/tree/master/"
+baseurl = "http://example.org/"
 languageCode = "en-us"
 title = "Erkin Semiz Resume"
 theme = "hugo-orbit-theme"
@@ -41,14 +41,8 @@ disable404 = false
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: erkin1semiz@gmail.com"
-        title = "erkin1semiz@gmail.com"
-        
-        [[params.contact.list]]
-        class = "phone"
-        icon = "fa-phone"
-        url = "tel:+905557103928"
-        title = "+905557103928"
+        url = "mailto: erkin1semiz@gmail[dot]com"
+        title = "erkin1semiz@gmail[dot]com"
 
         [[params.contact.list]]
         class = "linkedin"
